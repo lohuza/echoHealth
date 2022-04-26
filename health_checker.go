@@ -1,5 +1,5 @@
 package echoHealth
 
 type HealthChecker interface {
-	CheckHealth() string
+	CheckHealth() (string, bool)
 }
